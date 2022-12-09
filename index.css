@@ -81,10 +81,14 @@ font-family: 'DM Sans', sans-serif;
     align-items: center;
     flex-direction: row;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .row img{
     width: 300px;
     padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 footer{
     text-align: center;
@@ -92,6 +96,10 @@ footer{
 }
 .mobile{
     display: none;
+}
+.sponsor-image{
+    transition-duration: 0.45s;
+    border-radius: 25px;
 }
 @media screen and (max-width: 768px){
     .mobile{
