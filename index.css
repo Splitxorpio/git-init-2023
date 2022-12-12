@@ -106,6 +106,13 @@ footer{
     transition-duration: 0.45s;
     border-radius: 25px;
 }
+.signup-hvr{
+    transition-duration: 0.45s;
+    margin: 10px;
+}
+.signup-hvr:hover{
+    transform: scale(1.1);
+}
 @media screen and (max-width: 768px){
     .mobile{
         display: block;
