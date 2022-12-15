@@ -105,6 +105,10 @@ footer{
 .sponsor-image{
     transition-duration: 0.45s;
     border-radius: 25px;
+    width: 25%;
+}
+.sponsor-image img{
+    width: 90%;
 }
 .signup-hvr{
     transition-duration: 0.45s;
