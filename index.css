@@ -117,6 +117,27 @@ footer{
 .signup-hvr:hover{
     transform: scale(1.1);
 }
+.one-of-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slant{
+    background-color: #db8a74;
+    height: auto;
+    width: 90%;
+}
+.slant img{
+    border: 1px solid #212121;
+    padding: 0;
+    transition: 0.45s;
+}
+.slant img:hover{
+    transform: scale(1.1);
+}
 @media screen and (max-width: 768px){
     .mobile{
         display: block;

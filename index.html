@@ -24,19 +24,30 @@
     <body>
         <div class="comp">
             <section>
-                <div class="container">
-                    <img style="transform: scale(0.7);" src="logo-hackathon.png" alt="">
-                    <h1 style="padding-left: 25%; padding-right: 25%;">Kick 2023 off with Git Init 2023 - Hosted by <a target="_blank" class="highlight" href="https://calcommit.org">Cal Commit!</a></h1>
-                    <br>
-                    <p>Jan 6th, 6:00 PM PST - Jan 8th, 12:00 PM PST</p>
-                    <p class="signup-hvr"><a style="font-size: 17px; text-decoration: none;" class="highlight" target="_blank" href="https://forms.gle/TTHWw4hBnR3XaTEt5"><i style="font-size: 17px; margin-bottom: 0; margin-left: 0px; margin-right: 8px; margin-top: 0px;" class="fa-solid fa-right-to-bracket"></i>Sign Up Here</a></p>
-                    <p class="signup-hvr"><a style="font-size: 17px; text-decoration: none;" class="highlight" target="_blank"
-                            href="https://git-init-2023.devpost.com/"><i
-                                style="font-size: 17px; margin-bottom: 0; margin-left: 0px; margin-right: 8px; margin-top: 0px;"
-                                class="fa-solid fa-right-to-bracket"></i>Devpost</a></p>
-                   
-                    <!-- arrow down icon -->
-                    <a href="#info"><i class="fa-solid fa-arrow-down float"></i></a>
+                <div class="row" style="height: 100%; padding: 0;">
+                    <div class="one-of-two">
+                        <img style="transform: scale(1.5);" src="gitinit.jpg" alt="">
+                        <br>
+                        
+                    </div>
+                    <div class="one-of-two">
+                        <h1 style="padding-left: 15%; padding-right: 15%;">Kick 2023 off with Git Init 2023 - Hosted by <a target="_blank"
+                                class="highlight" href="https://calcommit.org">Cal Commit!</a></h1>
+                        <br>
+                        <p>Jan 6th, 6:00 PM PST - Jan 8th, 12:00 PM PST</p>
+                        <h1 id="demo"></h1>
+                        <p class="signup-hvr"><a style="font-size: 17px; text-decoration: none;" class="highlight" target="_blank"
+                                href="https://forms.gle/TTHWw4hBnR3XaTEt5"><i
+                                    style="font-size: 17px; margin-bottom: 0; margin-left: 0px; margin-right: 8px; margin-top: 0px;"
+                                    class="fa-solid fa-right-to-bracket"></i>Sign Up Here</a></p>
+                        <p class="signup-hvr"><a style="font-size: 17px; text-decoration: none;" class="highlight" target="_blank"
+                                href="https://git-init-2023.devpost.com/"><i
+                                    style="font-size: 17px; margin-bottom: 0; margin-left: 0px; margin-right: 8px; margin-top: 0px;"
+                                    class="fa-solid fa-right-to-bracket"></i>Devpost</a></p>
+                        
+                        <!-- arrow down icon -->
+                        <a href="#info"><i class="fa-solid fa-arrow-down float"></i></a>
+                    </div>
                 </div>
             </section>
             <section id="info">
@@ -82,7 +93,7 @@
                         <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="400">
                             <img src="aditya.png" alt="">
                             <p>Aditya Sahasranam</p>
-                            <p>Organizer, Outreach Manager</p>
+                            <p>Activities Director</p>
                         </div>
                         <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="500">
                             <img src="https://static.wixstatic.com/media/8a7384_b4cbb075bfbc4be99c44f656834059d5~mv2.jpg/v1/crop/x_0,y_6,w_233,h_233/fill/w_253,h_253,al_c,lg_1,q_80,enc_auto/IMG_B460E9285B46-1.jpg"
@@ -167,8 +178,15 @@
                         class="highlight" href="https://calcommit.org">Cal Commit!</a></h1>
                 <br>
                 <p>Jan 6th, 6:00 PM PST - Jan 8th, 12:00 PM PST</p>
-                <p><a style="font-size: 17px;" class="highlight" target="_blank" href="https://forms.gle/TTHWw4hBnR3XaTEt5">Sign Up
-                        Here</a></p>
+                <h1 id="demo2"></h1>
+                <p class="signup-hvr"><a style="font-size: 17px; text-decoration: none;" class="highlight" target="_blank"
+                        href="https://forms.gle/TTHWw4hBnR3XaTEt5"><i
+                            style="font-size: 17px; margin-bottom: 0; margin-left: 0px; margin-right: 8px; margin-top: 0px;"
+                            class="fa-solid fa-right-to-bracket"></i>Sign Up Here</a></p>
+                <p class="signup-hvr"><a style="font-size: 17px; text-decoration: none;" class="highlight" target="_blank"
+                        href="https://git-init-2023.devpost.com/"><i
+                            style="font-size: 17px; margin-bottom: 0; margin-left: 0px; margin-right: 8px; margin-top: 0px;"
+                            class="fa-solid fa-right-to-bracket"></i>Devpost</a></p>
                 <!-- arrow down icon -->
             </div>
         </div>
@@ -183,6 +201,65 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        // Set the date we're counting down to
+            var countDownDate = new Date("Jan 6, 2023 18:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "Active Now!";
+                }
+            }, 1000);
+    </script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 6, 2023 18:00:00").getTime();
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Active Now!";
+            }
+        }, 1000);
     </script>
 <script src="https://kit.fontawesome.com/6de65e3da1.js" crossorigin="anonymous"></script>
 </html>
