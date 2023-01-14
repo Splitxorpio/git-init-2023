@@ -138,6 +138,9 @@ footer{
 .slant img:hover{
     transform: scale(1.1);
 }
+.align-left{
+    text-align: left !important;
+}
 @media screen and (max-width: 768px){
     .mobile{
         display: block;
